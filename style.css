@@ -18,12 +18,10 @@
       font-family: Inter,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   a{
-    text-decoration: none;
-    color: red;
-  }
-  a:hover{
-    text-decoration: underline;
-  }
+    text-decoration:underline;
+    color: lightgreen;
+}
+
   .Box{
     display: flex;
    justify-content: center;
@@ -42,40 +40,40 @@
     flex-direction:column;
     background-color: hsl(0, 0%, 12%);
     border-radius: 6px;
-    padding: 30px;
+    padding: 40px;
   }
   .profile{
-    width: 60px;
+    width: 75px;
     border-radius: 50%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .Name{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
   }
   .location{
     font-weight: 600;
-    margin-top: 4px;
-    font-size: 12px;
+    margin-top: 6px;
+    font-size: 14px;
     color:  hsl(75, 94%, 57%);
   }
   .about{
   color: hsl(0, 0%, 80%);
-  font-size: 12px;
+  font-size: 14px;
     margin-top: 20px;
     margin-bottom: 16px;
   font-weight: 400;
   }
   .other-platforms{
-    width: 250px;
+    width: 280px;
     border-radius: 5px;
     border: none;
     margin-bottom: 10px;
     background-color:  hsl(0, 0%, 20%);
-    padding: 10px 2px;
-    font-size: 12px;
+    padding: 12px 2px;
+    font-size: 14px;
     font-weight: 600;
     color:white ;
     cursor: pointer;
@@ -91,5 +89,5 @@
   .attribution{
     font-weight: 400;
     font-size: 14px;
-  color: wheat;
+  color: white;
   }
